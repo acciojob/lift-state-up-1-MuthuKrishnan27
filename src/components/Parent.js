@@ -15,7 +15,7 @@ class Parent extends Component {
 
   render() {
     return (
-      <div>
+      <div className='parent'>
         <h1>Parent Component</h1>
         <Child showModal={this.state.showModal} onButtonClick={this.handleButtonClick} />
       </div>
